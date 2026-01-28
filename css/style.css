@@ -210,3 +210,62 @@
   color: #627382;
   margin-top: 16px;
 }
+.brain {
+  width: 1360px;
+  margin: 120px auto;
+  padding: 80px 20px;
+  background-color: #FFF7ED;
+}
+.brain-container {
+  max-width: 1360px;
+  gap: 60px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+.brain-image {
+  flex: 1;
+}
+.brain-image img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+}
+.brain-content {
+  flex: 1;
+}
+.brain-content-title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #469165;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+.brain-content-heading {
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.brain-content-pragraph {
+  max-width: 475px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+.brain-list-info {
+  list-style-type: none;
+}
+.brain-list-info li {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.brain-list-info li i {
+  color: #30B868;
+}
