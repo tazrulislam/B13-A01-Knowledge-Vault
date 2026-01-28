@@ -24,7 +24,7 @@
   cursor: pointer;
 }
 .btn:hover {
-  background-color: cornflowerblue;
+  background-color: #30B868;
 }
 
 
@@ -34,6 +34,7 @@
 }
 .nav-container {
   max-width: 1600px;
+  height: 55px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -57,8 +58,13 @@
   color: #000000;
   text-decoration: none;
 }
+.nav-container .menu a:hover {
+  color: #30B868;
+}
 #banner {
-  background-image: url(../assets/hero-bg.png);
+  background-image: url(../assets/hero-bg.png), linear-gradient(
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5));
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -83,11 +89,15 @@
   font-weight: 500;
   padding: 8px 12px;
   border-radius: 20px;
-  display: flex;
+}
+.early-access i {
+  margin-right: 2.5px;
+  display: inline-flex;
+  align-items: center;
   justify-content: center;
 }
 .early-access:hover {
-  background-color: #469165;
+  background-color: #30B868;
   color: #FFFFFF;
   transition: 0.1s;
 }
@@ -129,7 +139,7 @@
   cursor: pointer;
 }
 .primary-btn:hover {
-  background-color: cornflowerblue;
+  background-color: #30B868;
   transition: 0.1s;
 }
 .banner-buttons .secondary-btn {
@@ -143,7 +153,7 @@
   cursor: pointer;
 }
 .secondary-btn:hover {
-  background-color: #469165;
+  background-color: #30B868;
   transition: 0.1s;
 }
 .card {
@@ -218,9 +228,8 @@
   width: 1360px;
   margin: 120px auto;
   padding: 80px 20px;
-  /* background-color: #FFF7ED; */
-  /* background-color: #FFF5EE; */
-  /* background-color: #F9F6EE; */
+}
+.brain:hover {
   background-color: #FAF9F6;
 }
 .brain-container {
