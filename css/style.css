@@ -1,0 +1,212 @@
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Shared Style  */
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn {
+  background-color: #469165;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  padding: 12.5px 16px;
+  border-radius: 4px;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: cornflowerblue;
+}
+
+
+/* Main Style */
+.navbar {
+  background-color: #FFFFFF;
+}
+.nav-container {
+  width: 71%;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 120px;
+}
+.nav-container .logo img {
+  max-width: 139px;
+  height: 60px;
+  background-color: #FFFFFF;
+}
+.nav-container .menu {
+  display: flex;
+  gap: 32px;
+  list-style-type: none;
+}
+.nav-container .menu a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 152%;
+  color: #000000;
+  text-decoration: none;
+}
+#banner {
+  background-image: url(../assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 115.5px 120px 179.5px 120px;
+}
+.banner-container {
+  max-width: 1360px;
+  height: 379px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  color: #000;
+}
+.early-access {
+  width: 229px;
+  background-color: #FFFFFF;
+  color: #469165;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+.banner-container .heading-1 {
+  font-size: 72px;
+  font-weight: 700px;
+  line-height: 84px;
+  color: #FFFFFF;
+}
+.banner-container .heading-2 {
+  font-size: 72px;
+  font-weight: 700px;
+  line-height: 84px;
+  color: #30B868;
+}
+.banner-container p {
+  max-width: 700px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin: auto;
+}
+.banner-buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.banner-buttons .primary-btn {
+  background-color: #469165;
+  color: #FFFFFF;
+  padding: 16.5px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.primary-btn:hover {
+  background-color: cornflowerblue;
+  transition: 0.1s;
+}
+.banner-buttons .secondary-btn {
+  background-color: transparent;
+  border: 1.5px solid #FFFFFF;
+  color: #FFFFFF;
+  padding: 16.5px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.secondary-btn:hover {
+  background-color: #469165;
+  transition: 0.1s;
+}
+.card {
+  width: 71%;
+  max-width: 1600px;
+  height: 448px;
+  margin: auto;
+}
+.card .card-heading {
+  max-width: 1360px;
+  height: 152px;
+  padding-top: 55px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.card .card-heading h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+  padding-bottom: 16px;
+}
+.card .card-heading p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+}
+.card .card-container {
+  max-width: 1360px;
+  height: 300px;
+  display: flex;
+  gap: 24px;
+  margin-top: 44px;
+  justify-content: space-between;
+  justify-content: center;
+  justify-content: flex-start;
+}
+.card-container .card-info {
+  width: 322px;
+  height: 300px;
+  padding: 24px;
+  background-color: #FFFFFF;
+  text-align: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 0 #00000060;
+}
+.card-info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  background-color: #F95555;
+  color: #FFFFFF;
+  padding: 14px 13px;
+  margin-top: 45px;
+}
+.card-info h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  margin-top: 16px;
+}
+.card-info p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+  margin-top: 16px;
+}
